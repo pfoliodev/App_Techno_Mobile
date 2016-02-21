@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vos Technologie WEB</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="js/jquery-1.12.0.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<!-- Page d'accueil -->
+<div data-role="page" id="home">
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#home" class="ui-btn-active ui-state-persist" data-icon="home" data-transition="slide">Accueil</a></li>
+        <li><a href="#front" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+        <li><a href="#back" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+    </ul>
+</div>
+	<div data-role="header">
+		<h1>Accueil</h1>
+	</div>
+		<div class="bkg-techno">
+			<div data-role="content">
+					<a href="#front"><div class="menu-techno front">Vos Technologies Front-End</div></a>
+					<a href="#back"><div class="menu-techno back">Vos Technologies Back-End</div></a>
+				  <a href="#mobile"><div class="menu-techno mobile">Vos Technologies Mobile</div></a>
+					<a href="#workflow"><div class="menu-techno work">Workflow</div></a>
+					<a href="#veille"><div class="menu-techno veille">Veille Technologiques</div></a>
+					<a href="#list"><div class="menu-techno liste">Liste de vos Technologies</div></a>
+			</div>
+		</div>
+	<div data-role="footer">
+		<h4>&copy; Paul-Henri Leguy</h4>
+	</div>
+</div>
+
+<!-- Page front end -->
+<div data-role="page" id="front">
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+        <li><a href="#front" class="ui-btn-active ui-state-persist" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+        <li><a href="#back" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+    </ul>
+</div>
+	<div data-role="header">
+		<h1>Front-End</h1>
+	</div>
+
+			<div data-role="main" class="ui-content">
+				<p class="categories"><h2>Débutant</h2></p>
+				<div class="ui-grid-a">
+				<div class="ui-block-a html">
+					<a href="#html"><div class="techno">HTML 5</div></a>
+				</div>
+				<div class="ui-block-b css">
+					<a href="#css3"><div class="techno">CSS 3</div></a>
+				</div>
+			</div>
+			<p class="categories"><h2>Intermédiaire</h2></p>
+			<div class="ui-grid-a">
+			<div class="ui-block-a js">
+				<a href="#js"><div class="techno">Javascript</div></a>
+			</div>
+			<div class="ui-block-b query">
+				<a href="#jquery"><div class="techno">Jquery</div></a>
+			</div>
+			<div class="ui-block-a boot">
+				<a href="#bootstrap"><div class="techno">Bootstraps</div></a>
+			</div>
+		</div>
+		<p class="categories"><h2>Confirmé</h2></p>
+		<div class="ui-grid-a">
+		<div class="ui-block-a angular">
+			<a href="#angular"><div class="techno">Angular JS</div></a>
+		</div>
+		<div class="ui-block-b coffee">
+			<a href="#coffee"><div class="techno">Coffee Script</div></a>
+		</div>
+	</div>
+		</div>
+	<div data-role="footer">
+		<h4>&copy; Paul-Henri Leguy</h4>
+	</div>
+</div>
+
+<!-- Techno front-end -->
+<!-- HTML -->
+<div data-role="page" id="html">
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+        <li><a href="#front" class="ui-btn-active ui-state-persist" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+        <li><a href="#back" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+    </ul>
+</div>
+	<div data-role="header">
+		<h1>Front-End</h1>
+	</div>
+	<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+	<p class="title">HTML 5 - Débutant</p>
+					<p class="title">Support numérique Vidéo</p>
+			<div data-role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true">
+    <li><a href="https://www.grafikart.fr/search?q=html">
+        <img class="img-html" src="images/html.jpg">
+    <h2>Grafikart</h2>
+    <p>Tutoriels HTML</p></a>
+    </li>
+		<li><a href="https://www.youtube.com/watch?v=NzzGt7EmXVw&list=PLqGj3iMvMa4KlJn1pMYPVV3eYzxJlWcON">
+        <img class="img-html" src="images/html.jpg">
+    <h2>Devtips</h2>
+    <p>Tutoriels HTML</p></a>
+    </li>
+    <p>Support numérique Écrit</p>
+    <li><a href="http://www.w3schools.com/html/">
+        <img class="img-html" src="images/html.jpg">
+    <h2>w3schools</h2>
+    <p>Tutoriels HTML</p></a>
+    </li>
+    <li><a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3">
+        <img class="img-html" src="images/html.jpg">
+    <h2>OpenClassroom</h2>
+    <p>Tutoriels HTML</p></a>
+    </li>
+</ul>
+    </div>
+		<div data-role="footer">
+			<h4>&copy; Paul-Henri Leguy</h4>
+		</div>
+		</div>
+
+
+
+<!-- CSS 3 -->
+<div data-role="page" id="css3">
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+        <li><a href="#front" class="ui-btn-active ui-state-persist" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+        <li><a href="#back" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+    </ul>
+</div>
+	<div data-role="header">
+		<h1>Front-End</h1>
+	</div>
+	<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+	<p class="title">CSS 3 - Débutant</p>
+	<p class="title">Support numérique Vidéo</p>
+		<div data-role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true">
+    <li><a href="https://www.grafikart.fr/search?q=css">
+        <img class="img-html" src="images/css3.jpg">
+    <h2>Grafikart</h2>
+    <p class="details">Tutoriels CSS 3</p></a>
+    </li>
+		<li><a href="https://www.youtube.com/watch?v=s7ONvIgOWdM&list=PLqGj3iMvMa4IOmy04kDxh_hqODMqoeeCy">
+        <img class="img-html" src="images/css3.jpg">
+    <h2>DevTips</h2>
+    <p class="details">Tutoriels CSS 3</p></a>
+    </li>
+    <p>Support numérique Écrit</p>
+    <li><a href="http://www.w3schools.com/css/">
+        <img class="img-html" src="images/css3.jpg">
+    <h2>W3schools</h2>
+    <p class="details">Tutoriels CSS 3</p></a>
+    </li>
+    <li><a href="http://tympanus.net/codrops/">
+        <img class="img-html" src="images/css3.jpg">
+    <h2>Codrops</h2>
+    <p class="details">CSS3 </br>Transitions - Animations</p></a>
+    </li>
+		<li><a href="https://codyhouse.co/">
+        <img class="img-html" src="images/css3.jpg">
+    <h2>Cody House</h2>
+    <p class="details">CSS3 </br>Transitions - Animations</p></a>
+    </li>
+</ul>
+		</div>
+	<div data-role="footer">
+		<h4>&copy; Paul-Henri Leguy</h4>
+	</div>
+</div>
+
+<!-- Javascript -->
+<div data-role="page" id="js">
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+        <li><a href="#front" class="ui-btn-active ui-state-persist" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+        <li><a href="#back" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+    </ul>
+</div>
+	<div data-role="header">
+		<h1>Front-End</h1>
+	</div>
+	<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+	<p class="title">Javascript - Intermédiaire</p>
+		<p class="title">Support numérique Vidéo</p>
+		<div data-role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true">
+    <li><a href="https://www.grafikart.fr/search?q=javascript">
+        <img class="img-html" src="images/js.jpg">
+    <h2>Grafikart</h2>
+    <p class="details">Tutoriels Javascript</p></a>
+    </li>
+		<li><a href="https://www.youtube.com/watch?v=fGdd9qNwQdQ&index=1&list=PLoYCgNOIyGACnrXwo5HMCfOH9VT05znGv">
+        <img class="img-html" src="images/js.jpg">
+    <h2>LearnCode.academy</h2>
+    <p class="details">Tutoriels Javascript</p></a>
+    </li>
+    <p>Support numérique Écrit</p>
+    <li><a href="http://www.w3schools.com/css/">
+        <img class="img-html" src="images/js.jpg">
+    <h2>W3schools</h2>
+    <p class="details">Tutoriels Javascript</p></a>
+    </li>
+    <li><a href="http://tympanus.net/codrops/">
+        <img class="img-html" src="images/js.jpg">
+    <h2>Codrops</h2>
+    <p class="details">Tutoriels Javascript </br>Animations - Transition</p></a>
+    </li>
+		<li><a href="https://codyhouse.co/">
+        <img class="img-html" src="images/js.jpg">
+    <h2>Cody House</h2>
+    <p class="details">Tutoriels Javascript </br>Animations - Transition</p></a>
+    </li>
+</ul>
+		</div>
+	<div data-role="footer">
+		<h4>&copy; Paul-Henri Leguy</h4>
+	</div>
+</div>
+<!-- Jquery -->
+<div data-role="page" id="jquery">
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+        <li><a href="#front" class="ui-btn-active ui-state-persist" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+        <li><a href="#back" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+    </ul>
+</div>
+	<div data-role="header">
+		<h1>Front-End</h1>
+	</div>
+	<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+	<p class="title">Jquery - Intermédiaire</p>
+		<p class="title">Support numérique Vidéo</p>
+		<div data-role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true">
+    <li><a href="https://www.grafikart.fr/search?q=jquery">
+        <img class="img-html" src="images/jquery.png">
+    <h2>Grafikart</h2>
+    <p>Tutoriels Jquery</p></a>
+    </li>
+		<li><a href="https://www.youtube.com/watch?v=hMxGhHNOkCU&list=PLoYCgNOIyGABdI2V8I_SWo22tFpgh2s6_">
+        <img class="img-html" src="images/jquery.png">
+    <h2>LearnCode.academy</h2>
+    <p>Tutoriels Jquery</p></a>
+    </li>
+    <p>Support numérique Écrit</p>
+    <li><a href="https://openclassrooms.com/courses/simplifiez-vos-developpements-javascript-avec-jquery">
+        <img class="img-html" src="images/jquery.png">
+    <h2>OpenClassroom</h2>
+    <p>Tutoriels Jquery</p></a>
+    </li>
+    <li><a href="http://www.w3schools.com/jquery/">
+        <img class="img-html" src="images/jquery.png">
+    <h2>w3schools</h2>
+    <p>Tutoriels Jquery</p></a>
+    </li>
+</ul>
+		</div>
+	<div data-role="footer">
+		<h4>&copy; Paul-Henri Leguy</h4>
+	</div>
+</div>
+
+<!-- Bootstrap -->
+<div data-role="page" id="bootstrap">
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+        <li><a href="#front" class="ui-btn-active ui-state-persist" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+        <li><a href="#back" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+    </ul>
+</div>
+	<div data-role="header">
+		<h1>Front-End</h1>
+	</div>
+	<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+	<p class="title">Bootstrap - Intermédiaire</p>
+		<p class="title">Support numérique Vidéo</p>
+		<div data-role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true">
+    <li><a href="https://www.grafikart.fr/tutoriels/html-css/bootstrap-twitter-182">
+        <img class="img-html" src="images/bootstrap.jpg">
+    <h2>Grafikart</h2>
+    <p class="details">Tutoriels </br>Bootstrap</p></a>
+    </li>
+		<li><a href="https://www.youtube.com/watch?v=0QlecDOWHmY&list=PLqGj3iMvMa4IPwMW-sSXn1Q_pVu5tUMCw">
+        <img class="img-html" src="images/bootstrap.jpg">
+    <h2>Devtips</h2>
+    <p class="details">Tutoriels </br>Bootstrap</p></a>
+    </li>
+    <p>Support numérique Écrit</p>
+    <li><a href="https://openclassrooms.com/courses/prenez-en-main-bootstrap">
+        <img class="img-html" src="images/bootstrap.jpg">
+    <h2>OpenClassroom</h2>
+    <p class="details">Tutoriels </br>Bootstrap</p></a>
+    </li>
+    <li><a href="http://www.w3schools.com/bootstrap/">
+        <img class="img-html" src="images/bootstrap.jpg">
+    <h2>w3schools</h2>
+    <p class="details">Tutoriels </br>Bootstrap</p></a>
+    </li>
+</ul>
+		</div>
+	<div data-role="footer">
+		<h4>&copy; Paul-Henri Leguy</h4>
+	</div>
+</div>
+
+<!-- Angular JS -->
+<div data-role="page" id="angular">
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+        <li><a href="#front" class="ui-btn-active ui-state-persist" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+        <li><a href="#back" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+    </ul>
+</div>
+	<div data-role="header">
+		<h1>Front-End</h1>
+	</div>
+	<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+	<p class="title">Angular JS - Confirmé</p>
+		<p class="title">Support numérique Vidéo</p>
+		<div data-role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true">
+    <li><a href="https://www.grafikart.fr/formations/angularjs">
+        <img class="img-html" src="images/angular.png">
+    <h2>Grafikart</h2>
+    <p class="details">Tutoriels </br>Angular JS</p></a>
+    </li>
+		<li><a href="https://www.youtube.com/watch?v=QETUuZ27N0w&list=PLoYCgNOIyGACEvLxZSD0YSrxKwfgnnkD9">
+        <img class="img-html" src="images/angular.png">
+    <h2>LearnCode.academys</h2>
+    <p class="details">Tutoriels </br>Angular JS</p></a>
+    </li>
+    <p>Support numérique Écrit</p>
+		<li><a href="https://www.codecademy.com/fr/learn/learn-angularjs">
+		        <img class="img-html" src="images/angular.png">
+		    <h2>Codecademy</h2>
+		    <p class="details">Tutoriels </br>Angular JS</p></a>
+		    </li>
+    <li><a href="https://openclassrooms.com/courses/developpez-vos-applications-web-avec-angularjs">
+        <img class="img-html" src="images/angular.png">
+    <h2>OpenClassroom</h2>
+    <p class="details">Tutoriels </br>Angular JS</p></a>
+    </li>
+    <li><a href="http://www.w3schools.com/angular/">
+        <img class="img-html" src="images/angular.png">
+    <h2>w3schools</h2>
+    <p class="details">Tutoriels </br>Angular JS</p></a>
+    </li>
+</ul>
+		</div>
+	<div data-role="footer">
+		<h4>&copy; Paul-Henri Leguy</h4>
+	</div>
+</div>
+
+<!-- Coffe Script -->
+<div data-role="page" id="coffee">
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+        <li><a href="#front" class="ui-btn-active ui-state-persist" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+        <li><a href="#back" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+    </ul>
+</div>
+	<div data-role="header">
+		<h1>Front-End</h1>
+	</div>
+	<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+	<p class="title">Coffee Script - Confirmé</p>
+		<p class="title">Support numérique Vidéo</p>
+		<div data-role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true">
+    <li><a href="https://www.grafikart.fr/tutoriels/javascript/coffeescript-493">
+        <img class="img-html" src="images/coffe.png">
+    <h2>Grafikart</h2>
+    <p class="details">Tutoriels </br>Coffee Script</p></a>
+    </li>
+</ul>
+		</div>
+	<div data-role="footer">
+		<h4>&copy; Paul-Henri Leguy</h4>
+	</div>
+</div>
+<!-- Techno front-end -->
+
+<!-- Page Back end -->
+<div data-role="page" id="back">
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+        <li><a href="#front" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+        <li><a href="#back" class="ui-btn-active ui-state-persist" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+    </ul>
+</div>
+	<div data-role="header">
+		<h1>Back-End</h1>
+	</div>
+		<div data-role="main" class="ui-content">
+			<p class="categories"><h2>Débutant</h2></p>
+			<div class="ui-grid-a">
+			<div class="ui-block-a php">
+				<a href="#php"><div class="techno">PHP</div></a>
+			</div>
+			<div class="ui-block-b ruby">
+				<a href="#ruby"><div class="techno">Ruby</div></a>
+			</div>
+			<div class="ui-block-a java">
+				<a href="#java"><div class="techno">Java</div></a>
+			</div>
+			<div class="ui-block-b mysql">
+				<a href="#mysql"><div class="techno">MySQL</div></a>
+			</div>
+		</div>
+	<p class="categories"><h2>Confirmé</h2></p>
+	<div class="ui-grid-a">
+	<div class="ui-block-a symphony">
+		<a href="#symphony"><div class="techno">Symphony 2</div></a>
+	</div>
+	<div class="ui-block-b zend">
+		<a href="#zend"><div class="techno">Zend Framework</div></a>
+	</div>
+	<div class="ui-block-a laravel">
+		<a href="#laravel"><div class="techno">Laravel 5</div></a>
+	</div>
+	<div class="ui-block-b rails">
+		<a href="#rails"><div class="techno">Ruby On Rails</div></a>
+	</div>
+</div>
+</div>
+	<div class="footer" data-role="footer">
+		<h4>&copy; Paul-Henri Leguy</h4>
+	</div>
+</div>
+
+<!-- Techno Back end -->
+<!-- PHP -->
+<div data-role="page" id="php">
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+        <li><a href="#front" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+        <li><a href="#back" class="ui-btn-active ui-state-persist" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+    </ul>
+</div>
+	<div data-role="header">
+		<h1>Back-End</h1>
+	</div>
+	<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+	<p class="title">PHP - Débutant</p>
+		<p class="title">Support numérique Vidéo</p>
+		<div data-role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true">
+		    <li><a href="https://www.grafikart.fr/formations/php-debutant">
+		    	<img class="img-html" src="images/php.png">
+		    <h2>Grafikart</h2>
+		    <p class="details">Tutoriels PHP</p></a>
+		    </li>
+				<li><a href="https://www.grafikart.fr/formations/programmation-objet-php">
+		    	<img class="img-html" src="images/php.png">
+		    <h2>Grafikart</h2>
+		    <p class="details">Tutoriels PHP </br>Objet</p></a>
+		    </li>
+		    <p>Support numérique Écrit</p>
+				<li><a href="http://www.w3schools.com/php/">
+		    	<img class="img-html" src="images/php.png">
+		    <h2>w3schools</h2>
+		    <p class="details">Tutoriels PHP</p></a>
+		    </li>
+				<li><a href="https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql">
+		    	<img class="img-html" src="images/php.png">
+		    <h2>OpenClassroom</h2>
+		    <p class="details">Tutoriels PHP</p></a>
+		    </li>
+				<li><a href="https://openclassrooms.com/courses/programmez-en-oriente-objet-en-php">
+		    	<img class="img-html" src="images/php.png">
+		    <h2>OpenClassroom</h2>
+		    <p class="details">Tutoriels PHP </br>Objet</p></a>
+		    </li>
+		 </ul>
+		</div>
+	<div data-role="footer">
+		<h4>&copy; Paul-Henri Leguy</h4>
+	</div>
+</div>
+
+<!-- Ruby -->
+<div data-role="page" id="ruby">
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+        <li><a href="#front" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+        <li><a href="#back" class="ui-btn-active ui-state-persist" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+    </ul>
+</div>
+	<div data-role="header">
+		<h1>Back-End</h1>
+	</div>
+	<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+	<p class="title">Ruby - Débutant</p>
+		<p class="title">Support numérique Vidéo</p>
+		<div data-role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true">
+		    <li><a href="https://www.youtube.com/watch?v=nRyUn7D8zCc&list=PLqGj3iMvMa4JiH5mEBG4GNHWdC2u9xdzF">
+		    	<img class="img-html" src="images/ruby.png">
+		    <h2>Devtips</h2>
+		    <p class="details">Tutoriels Ruby</p></a>
+		    </li>
+				<li><a href="https://www.grafikart.fr/formations/apprendre-ruby">
+		    	<img class="img-html" src="images/ruby.png">
+		    <h2>Grafikart</h2>
+		    <p class="details">Tutoriels Ruby </br>Objet</p></a>
+		    </li>
+		    <p>Support numérique Écrit</p>
+				<li><a href="https://www.codecademy.com/fr/learn/ruby">
+		    	<img class="img-html" src="images/ruby.png">
+		    <h2>Codecademy</h2>
+		    <p class="details">Tutoriels Ruby</p></a>
+		    </li>
+				<li><a href="https://openclassrooms.com/courses/lancez-vous-dans-la-programmation-avec-ruby">
+		    	<img class="img-html" src="images/ruby.png">
+		    <h2>OpenClassroom</h2>
+		    <p class="details">Tutoriels Ruby</p></a>
+		    </li>
+		 </ul>
+		</div>
+	<div data-role="footer">
+		<h4>&copy; Paul-Henri Leguy</h4>
+	</div>
+</div>
+<!-- Java -->
+<div data-role="page" id="java">
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+        <li><a href="#front" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+        <li><a href="#back" class="ui-btn-active ui-state-persist" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+    </ul>
+</div>
+	<div data-role="header">
+		<h1>Back-End</h1>
+	</div>
+	<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+	<p class="title">Ruby - Débutant</p>
+		<p class="title">Support numérique Écrit</p>
+		<div data-role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true">
+				<li><a href="http://www.objis.com/formation-java/premiers-pas-developpeur-java.html">
+		    	<img class="img-html" src="images/java.gif">
+		    <h2>OpenClassroom</h2>
+		    <p class="details">Tutoriels Java</p></a>
+		    </li>
+				<li><a href="http://www.objis.com/formation-java/premiers-pas-developpeur-java.html">
+		    	<img class="img-html" src="images/java.gif">
+		    <h2>Objis</h2>
+		    <p class="details">Tutoriels Java</p></a>
+		    </li>
+		 </ul>
+		</div>
+	<div data-role="footer">
+		<h4>&copy; Paul-Henri Leguy</h4>
+	</div>
+</div>
+
+<!-- MySQL -->
+<div data-role="page" id="mysql">
+	<div data-role="navbar">
+    <ul>
+        <li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+        <li><a href="#front" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+        <li><a href="#back" class="ui-btn-active ui-state-persist" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+    </ul>
+</div>
+	<div data-role="header">
+		<h1>Back-End</h1>
+	</div>
+	<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+	<p class="title">MySQL - Débutant</p>
+		<p class="title">Support numérique Vidéo</p>
+		<div data-role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true">
+				<li><a href="https://www.grafikart.fr/formations/mysql">
+		    	<img class="img-html" src="images/mysql.png">
+		    <h2>Grafikart</h2>
+		    <p class="details">Tutoriels MySQL</p></a>
+		    </li>
+				<p>Support numérique Écrit</p>
+				<li><a href="http://www.w3schools.com/sql/">
+		    	<img class="img-html" src="images/mysql.png">
+		    <h2>w3schools</h2>
+		    <p class="details">Tutoriels MySQL</p></a>
+		    </li>
+				<li><a href="https://openclassrooms.com/courses/administrez-vos-bases-de-donnees-avec-mysql">
+		    	<img class="img-html" src="images/mysql.png">
+		    <h2>OpenClassroom</h2>
+		    <p class="details">Tutoriels MySQL</p></a>
+		    </li>
+		 </ul>
+		</div>
+		<div data-role="footer">
+			<h4>&copy; Paul-Henri Leguy</h4>
+		</div>
+</div>
+		<!-- Symphony -->
+		<div data-role="page" id="symphony">
+			<div data-role="navbar">
+		    <ul>
+		        <li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+		        <li><a href="#front" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+		        <li><a href="#back" class="ui-btn-active ui-state-persist" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+		    </ul>
+		</div>
+			<div data-role="header">
+				<h1>Back-End</h1>
+			</div>
+			<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+			<p class="title">Symphony - Confirmé</p>
+				<p class="title">Support numérique Vidéo</p>
+				<div data-role="main" class="ui-content">
+					<ul data-role="listview" data-inset="true">
+						<li><a href="https://www.grafikart.fr/formations/sf2-ecommerce">
+				    	<img class="img-html" src="images/symphony.svg">
+				    <h2>Grafikart</h2>
+				    <p class="details">Tutoriels Symphony</p></a>
+				    </li>
+						<p>Support numérique Écrit</p>
+						<li><a href="https://openclassrooms.com/courses/developpez-votre-site-web-avec-le-framework-symfony2">
+				    	<img class="img-html" src="images/symphony.svg">
+				    <h2>OpenClassroom</h2>
+				    <p class="details">Tutoriels Symphony</p></a>
+				    </li>
+				 </ul>
+				</div>
+	<div data-role="footer">
+		<h4>&copy; Paul-Henri Leguy</h4>
+	</div>
+</div>
+
+<!-- Zend Framework -->
+<div data-role="page" id="zend">
+	<div data-role="navbar">
+		<ul>
+				<li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+				<li><a href="#front" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+				<li><a href="#back" class="ui-btn-active ui-state-persist" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+		</ul>
+</div>
+	<div data-role="header">
+		<h1>Back-End</h1>
+	</div>
+	<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+	<p class="title">Zend Framework - Confirmé</p>
+		<p class="title">Support numérique Écrit</p>
+		<div data-role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true">
+				<li><a href="http://zend-framework.developpez.com/cours/">
+		    	<img class="img-html" src="images/zend.jpg">
+		    <h2>Developpez.com</h2>
+		    <p class="details">Tutoriels Zend Framework</p></a>
+		    </li>
+				<li><a href="http://www.z-f.fr/">
+		    	<img class="img-html" src="images/zend.jpg">
+		    <h2>Z-f</h2>
+		    <p class="details">Tutoriels Zend Framework</p></a>
+		    </li>
+		 </ul>
+		</div>
+<div data-role="footer">
+<h4>&copy; Paul-Henri Leguy</h4>
+</div>
+</div>
+
+<!-- Laravel -->
+<div data-role="page" id="laravel">
+	<div data-role="navbar">
+		<ul>
+				<li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+				<li><a href="#front" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+				<li><a href="#back" class="ui-btn-active ui-state-persist" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+		</ul>
+</div>
+	<div data-role="header">
+		<h1>Back-End</h1>
+	</div>
+	<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+	<p class="title">Laravel 5 - Confirmé</p>
+		<p class="title">Support numérique Vidéo</p>
+		<div data-role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true">
+				<li><a href="https://www.grafikart.fr/formations/laravel">
+		    	<img class="img-html" src="images/laravel.jpg">
+		    <h2>Grafikart</h2>
+		    <p class="details">Tutoriels Laravel</p></a>
+		    </li>
+				<p>Support numérique Écrit</p>
+				<li><a href="https://openclassrooms.com/courses/decouvrez-le-framework-php-laravel">
+		    	<img class="img-html" src="images/laravel.jpg">
+		    <h2>OpenClassroom</h2>
+		    <p class="details">Tutoriels Laravel</p></a>
+		    </li>
+		 </ul>
+		</div>
+<div data-role="footer">
+<h4>&copy; Paul-Henri Leguy</h4>
+</div>
+</div>
+<!-- Ruby On Rails -->
+<div data-role="page" id="rails">
+	<div data-role="navbar">
+		<ul>
+				<li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+				<li><a href="#front" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+				<li><a href="#back" class="ui-btn-active ui-state-persist" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+		</ul>
+</div>
+	<div data-role="header">
+		<h1>Back-End</h1>
+	</div>
+	<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+	<p class="title">Ruby On Rails - Confirmé</p>
+		<p class="title">Support numérique Écrit</p>
+		<div data-role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true">
+				<li><a href="https://www.codecademy.com/fr/learn/learn-rails">
+		    	<img class="img-html" src="images/rails.png">
+		    <h2>Codecademy</h2>
+		    <p class="details">Tutoriels ROR</p></a>
+		    </li>
+				<li><a href="https://openclassrooms.com/courses/decouvrez-le-framework-php-laravel">
+		    	<img class="img-html" src="images/rails.png">
+		    <h2>OpenClassroom</h2>
+		    <p class="details">Tutoriels ROR</p></a>
+		    </li>
+		 </ul>
+		</div>
+<div data-role="footer">
+<h4>&copy; Paul-Henri Leguy</h4>
+</div>
+</div>
+<!-- Techno Back end -->
+
+<!-- Techno Mobile -->
+<div data-role="page" id="mobile">
+	<div data-role="navbar">
+		<ul>
+				<li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+				<li><a href="#front" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+				<li><a href="#back" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+		</ul>
+</div>
+	<div data-role="header">
+		<h1>Mobile</h1>
+	</div>
+	<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+	<p class="title">Titanium</p>
+		<p class="title">Support numérique Vidéo</p>
+		<div data-role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true">
+				<li><a href="https://www.grafikart.fr/tutoriels/titanium/titanium-mobile-iphone-android-174">
+		    	<img class="img-html" src="images/titanium.png">
+		    <h2>Grafikart</h2>
+		    <p class="details">Développer </br>une application mobile</p></a>
+		    </li>
+				<li><a href="https://www.grafikart.fr/tutoriels/titanium/titanium-introduction-144">
+		    	<img class="img-html" src="images/titanium.png">
+		    <h2>Grafikart</h2>
+		    <p class="details">Découverte de Titanium</p></a>
+		    </li>
+		 </ul>
+		</div>
+		<p class="title">Apache Cordova</p>
+			<p class="title">Support numérique Vidéo</p>
+			<div data-role="main" class="ui-content">
+				<ul data-role="listview" data-inset="true">
+					<li><a href="https://www.grafikart.fr/tutoriels/titanium/titanium-mobile-iphone-android-174">
+			    	<img class="img-html" src="images/cordova.jpg">
+			    <h2>Grafikart</h2>
+			    <p class="details">Installer et </br>configurer Cordova</p></a>
+			    </li>
+					<li><a href="https://www.grafikart.fr/tutoriels/cordova/compilation-ios-469">
+			    	<img class="img-html" src="images/cordova.jpg">
+			    <h2>Grafikart</h2>
+			    <p class="details">Compiler pour iPhone/iPad</p></a>
+			    </li>
+					<li><a href="https://www.grafikart.fr/tutoriels/cordova/compilation-android-458">
+			    	<img class="img-html" src="images/cordova.jpg">
+			    <h2>Grafikart</h2>
+			    <p class="details">Compiler sur android</p></a>
+			    </li>
+					<li><a href="https://www.grafikart.fr/tutoriels/cordova/cordova-angular-454">
+			    	<img class="img-html" src="images/cordova.jpg">
+			    <h2>Grafikart</h2>
+			    <p class="details">Créer </br>sa première application</p></a>
+			    </li>
+					<li><a href="https://www.grafikart.fr/tutoriels/cordova/ionic-framework-641">
+			    	<img class="img-html" src="images/cordova.jpg">
+			    <h2>Grafikart</h2>
+			    <p class="details">Ionic Framework</p></a>
+			    </li>
+			 </ul>
+			</div>
+<div data-role="footer">
+<h4>&copy; Paul-Henri Leguy</h4>
+</div>
+</div>
+<!-- Techno Mobile -->
+
+<!-- List techno -->
+<div data-role="page" id="list">
+  <div data-role="header">
+    <h1>Liste de vos technologies</h1>
+  </div>
+		<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+  <div data-role="main" class="ui-content">
+    <table data-role="table" id="table-column-toggle" data-filter="true" data-input="#filterTable-input" data-mode="columntoggle" class="ui-responsive table-stroke">
+			<form>
+	    <input id="filterTable-input" data-type="search" placeholder="Rechercher">
+	    </form>
+			<thead>
+         <tr>
+           <th data-priority="2">Type</th>
+           <th>Technologie</th>
+           <th data-priority="3">Année</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <th>Front-End</th>
+           <td><a href="#html" data-rel="external">HTML 5</a></td>
+           <td>2014</td>
+         </tr>
+          <tr>
+           <th>Front-End</th>
+           <td><a href="#css3" data-rel="external">CSS 3</a></td>
+           <td>1999</td>
+         </tr>
+        <tr>
+         <th>Front-End</th>
+         <td><a href="#js" data-rel="external">Javascript</a></td>
+         <td>1995</td>
+        </tr>
+					<tr>
+         <th>Front-End</th>
+         <td><a href="#jquery" data-rel="external">Jquery</a></td>
+         <td>2006</td>
+        </tr>
+					<tr>
+         <th>Front-End</th>
+         <td><a href="#bootstrap" data-rel="external">Bootstrap</a></td>
+         <td>2012</td>
+        </tr>
+				<tr>
+         <th>Front-End</th>
+         <td><a href="#angular" data-rel="external">Angular JS</a></td>
+         <td>2012</td>
+        </tr>
+				<tr>
+         <th>Front-End</th>
+         <td><a href="#coffee" data-rel="external">Coffee Script</a></td>
+         <td>2009</td>
+        </tr>
+         <tr>
+         <th>Back-End</th>
+         <td><a href="#rails" data-rel="external">Ruby On Rails</a></td>
+         <td>2004</td>
+        </tr>
+         <tr>
+         <th>Back-End</th>
+         <td><a href="#php" data-rel="external">PHP</a></td>
+         <td>1994</td>
+        </tr>
+         <tr>
+         <th>Back-End</th>
+         <td><a href="#ruby" data-rel="external">Ruby</a></td>
+         <td>1995</td>
+        </tr>
+         <tr>
+         <th>Back-End</th>
+         <td><a href="#java" data-rel="external">Java</a></td>
+         <td>1995</td>
+        </tr>
+         <tr>
+         <th>Back-End</th>
+         <td><a href="#mysql" data-rel="external">MySQL</a></td>
+         <td>1995</td>
+        </tr>
+         <tr>
+         <th>Back-End</th>
+         <td><a href="#symphony" data-rel="external">Symphony 2</a></td>
+         <td>2011</td>
+        </tr>
+         <tr>
+         <th>Back-End</th>
+         <td><a href="#zend" data-rel="external">Zend Framework</a></td>
+         <td>2006</td>
+        </tr>
+         <tr>
+         <th>Back-End</th>
+         <td><a href="#laravel" data-rel="external">Laravel 5</a></td>
+         <td>2011</td>
+        </tr>
+        <tr>
+         <th>Mobile</th>
+         <td><a href="#mobile" data-rel="external">Titanium</a></td>
+         <td>2008</td>
+        </tr>
+        <tr>
+         <th>Mobile</th>
+         <td><a href="#mobile" data-rel="external">Apache Cordova</a></td>
+         <td>2011</td>
+        </tr>
+       </tbody>
+     </table>
+  </div>
+
+  <div data-role="footer">
+    <h4>&copy; Paul-Henri Leguy</h4>
+  </div>
+</div>
+<!-- List techno -->
+
+<!-- Veille techno -->
+
+<div data-role="page" id="veille">
+	<div data-role="navbar">
+		<ul>
+				<li><a href="#home" data-icon="home" data-transition="slide">Accueil</a></li>
+				<li><a href="#front" data-icon="arrow-l" data-transition="slide">Front-End</a></li>
+				<li><a href="#back" data-icon="arrow-r" data-transition="slide">Back-End</a></li>
+		</ul>
+ </div>
+  <div data-role="header">
+    <h1>Veille Technologique</h1>
+  </div>
+		<p class="title">Veille Technologique</p>
+		<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+
+  	<ul data-role="listview" data-inset="true">
+    <li><a href="https://www.reddit.com/r/web_design/">
+        <img class="img-html" src="images/reddit.png">
+    <h2>Reddit</h2>
+    <p>Veille Technologique</p></a>
+    </li>
+    <li><a href="https://news.ycombinator.com/news">
+        <img class="img-html" src="images/hn_hat.png">
+    <h2>Hacker News</h2>
+    <p>Veille Technologique</p></a>
+    </li>
+    <li><a href="https://dribbble.com/search?q=web">
+        <img class="img-html" src="images/dribbble.png">
+    <h2>Dribbble</h2>
+    <p>Veille Technologique </br>Webdesign</p></a>
+    </li>
+  </ul>
+  <div data-role="footer">
+    <h4>&copy; Paul-Henri Leguy</h4>
+  </div>
+</div>
+<!-- Veille techno -->
+
+<!-- Workflow -->
+<div data-role="page" id="workflow">
+	<div data-role="header">
+		<h1>Workflow</h1>
+	</div>
+	<a href="#" data-rel="back" class="ui-btn ui-btn-inline color">Retour</a>
+     <p>Workflow</p>
+  <ul data-role="listview" data-inset="true">
+     <li><a href="https://www.grafikart.fr/tutoriels/sublime-text-2/emmet-376">
+          <img class="img-html" src="images/emmet.png">
+          <h2>Plugin Code</h2>
+          <p>Emmet (Zen coding)</p></a>
+     </li>
+     <li><a href="https://www.grafikart.fr/tutoriels/divers/git-github-131">
+          <img class="img-html" src="images/github.png">
+          <h2>Versionning</h2>
+          <p>Github</p></a>
+     </li>
+     <li><a href="https://www.grafikart.fr/tutoriels/grunt/grunt-introduction-470">
+          <img class="img-html" src="images/grunt.png">
+          <h2>Automatiseur de tâches</h2>
+          <p>Grunt</p></a>
+     </li>
+     <li><a href="https://www.grafikart.fr/formations/sass-compass">
+          <img class="img-html" src="images/sass.png">
+          <h2>Préprocesseur CSS</h2>
+          <p>Sass</p></a>
+     </li>
+    <li><a href="https://www.grafikart.fr/tutoriels/html-css/jekyll-505">
+          <img class="img-html" src="images/jekyll.png">
+          <h2>YAML Front Matter</h2>
+          <p>Jekyll</p></a>
+    </li>
+     <li><a href="https://www.grafikart.fr/tutoriels/divers/trello-577">
+          <img class="img-html" src="images/trello.png">
+          <h2>Gestion des tâches</h2>
+          <p>Trello</p></a>
+     </li>
+  </ul>
+	<div data-role="footer">
+		<h4>&copy; Paul-Henri Leguy</h4>
+	</div>
+</div>
+</body>
+</html>

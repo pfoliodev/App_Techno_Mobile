@@ -1,0 +1,173 @@
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Home Page */
+.bkg-techno{
+  background-position: center;
+  opacity: 0.9;
+}
+
+.menu-techno{
+  text-shadow: 2px 2px 8px #000;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  color: #fff;
+  -moz-box-shadow: 3px 3px 10px 0px #656565;
+ -webkit-box-shadow: 3px 3px 10px 0px #656565;
+ -o-box-shadow: 3px 3px 10px 0px #656565;
+ box-shadow: 3px 3px 10px 0px #656565;
+ filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=135, Strength=10);
+}
+
+.menu-techno.front{
+  background-image: url('../images/nav/bgdesk1.jpg');
+  opacity: 0.9;
+}
+
+.menu-techno.back{
+  background-image: url('../images/nav/integ.jpg');
+  opacity: 0.9;
+}
+
+.menu-techno.work{
+  background-image: url('../images/nav/dsk3t.jpg');
+  opacity: 0.9;
+}
+
+.menu-techno.veille{
+  background-image: url('../images/nav/desk5.jpg');
+  background-position: center right;
+  opacity: 0.9;
+}
+
+.menu-techno.liste{
+  background-image: url('../images/nav/tech2.jpg');
+  opacity: 0.9;
+}
+
+.menu-techno.mobile{
+  background-image: url('../images/nav/Bg2.jpg');
+  background-position: center;
+  opacity: 0.9;
+}
+
+/* Home Page */
+.techno{
+  margin: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  color: #fff;
+  background-color: #3183C4;
+  -moz-box-shadow: 3px 3px 10px 0px #656565;
+ -webkit-box-shadow: 3px 3px 10px 0px #656565;
+ -o-box-shadow: 3px 3px 10px 0px #656565;
+ box-shadow: 3px 3px 10px 0px #656565;
+ filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=135, Strength=10);
+}
+
+/* Techno bg color */
+.ui-block-a.html .techno{
+  background-color: #9D3C39;
+  opacity: 0.9;
+}
+
+.ui-block-b.css .techno{
+  background-color: #248FA7;
+  opacity: 0.9;
+}
+
+.ui-block-a.js .techno{
+  background-color: #F5E916;
+  opacity: 0.9;
+}
+
+.ui-block-b.query .techno{
+  background-color: #266190;
+  opacity: 0.9;
+}
+
+.ui-block-a.boot .techno{
+  background-color: #7224DE;
+  opacity: 0.9;
+}
+
+.ui-block-a.angular .techno{
+  background-color: #9D220A;
+  opacity: 0.9;
+}
+
+.ui-block-b.coffee .techno{
+  background-color: #82614C;
+  opacity: 0.9;
+}
+
+.ui-block-a.php .techno{
+  background-color: #5F70E7;
+  opacity: 0.9;
+}
+
+.ui-block-b.ruby .techno{
+  background-color: #D9420A;
+  opacity: 0.9;
+}
+
+.ui-block-a.java .techno{
+  background-color: #ED7000;
+  opacity: 0.9;
+}
+
+.ui-block-a.symphony .techno{
+  background-color: #000;
+  opacity: 0.9;
+}
+
+.ui-block-b.zend .techno{
+  background-color: #00B83B;
+  opacity: 0.9;
+}
+
+.ui-block-a.laravel .techno{
+  background-color: #B84660;
+  opacity: 0.9;
+}
+
+.ui-block-b.rails .techno{
+  background-color: #8B8799;
+  opacity: 0.9;
+}
+
+.ui-block-b.mysql .techno{
+  background-color: #755C56;
+  opacity: 0.9;
+}
+
+/* Techno link sources */
+.title{
+  margin-left: 15px;
+}
+
+.details{
+  width: 200px;
+}
+
+.img-html{
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.footer{
+  background-color: #000;
+}
