@@ -62,6 +62,12 @@ p{
   opacity: 0.9;
 }
 
+.menu-techno.reseau{
+  background-image: url('../images/nav/reseau.jpg');
+  background-position: center;
+  opacity: 0.9;
+}
+
 /* Home Page */
 .techno{
   margin: 0;
@@ -157,6 +163,7 @@ p{
 /* Techno link sources */
 .title{
   margin-left: 15px;
+  font-weight: bold;
 }
 
 .details{
