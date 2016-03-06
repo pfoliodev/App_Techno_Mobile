@@ -120,6 +120,11 @@ p{
   opacity: 0.9;
 }
 
+.ui-block-b.coffee .react{
+  background-color: #82614C;
+  opacity: 0.9;
+}
+
 .ui-block-a.php .techno{
   background-color: #5F70E7;
   opacity: 0.9;
