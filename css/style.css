@@ -155,6 +155,17 @@ p{
   opacity: 0.9;
 }
 
+.ui-block-a.meteor .techno{
+  background-color: #7E1AA1;
+  opacity: 0.9;
+}
+
+.ui-block-b.node .techno{
+  background-color: #82764E;
+  opacity: 0.9;
+}
+
+
 .ui-block-b.rails .techno{
   background-color: #8B8799;
   opacity: 0.9;
