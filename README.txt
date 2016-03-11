@@ -1,6 +1,6 @@
 --- Application Jquery Mobile ---
 
-Techno utilis� : HTML/CSS/Jquery Mobile.
+Techno utilisé : HTML/CSS/Jquery Mobile.
 
 Views :
 - Vos technologies Front End
@@ -11,5 +11,5 @@ Views :
 - Veille Technologique
 - Liste de vos Technologies
 
-Application non support� en local par le navigateur Google Chrome.
-Lien d'acc�s � l'application pour tester sur mobile: http://phlfolio.com/
+Application non supporté en local par le navigateur Google Chrome.
+Lien d'accès à l'application pour tester sur mobile: http://phlfolio.com/
