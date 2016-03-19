@@ -68,6 +68,12 @@ p{
   opacity: 0.9;
 }
 
+.menu-techno.outils{
+  background-image: url('../images/nav/utils.jpg');
+  background-position: bottom;;
+  opacity: 0.9;
+}
+
 /* Home Page */
 .techno{
   margin: 0;
