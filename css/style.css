@@ -11,6 +11,9 @@ p{
 }
 
 /* Home Page */
+.main-title{
+  text-align: center;
+}
 .bkg-techno{
   background-position: center;
   opacity: 0.9;
